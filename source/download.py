@@ -4,7 +4,7 @@ import os
 
 def DownloadSingleFile(fileURL, cnt, username):
     print('Downloading image...')
-    DIR = f'./DB/{username}'
+    DIR = f'./DB12/{username}'
     if not os.path.exists(DIR):
         os.mkdir(DIR)
     fileName = DIR + '/' + str("%03d"%cnt) + '.jpg'
@@ -14,7 +14,7 @@ def DownloadSingleFile(fileURL, cnt, username):
 
 if __name__ == '__main__':
 
-    with open('./output100.json') as data_file:
+    with open('./output12.json') as data_file:
         data = json.load(data_file)
 
     for i in range(0, len(data)):
