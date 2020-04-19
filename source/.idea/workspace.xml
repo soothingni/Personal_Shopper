@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beaaacf3-14d8-4e67-a818-57a4719fd4bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tensorflow-triplet-loss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/model/mnist_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/model/mnist_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/model/model_fn.py" beforeDir="false" afterPath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/model/model_fn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/model/tests/test_triplet_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/model/tests/test_triplet_loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/model/triplet_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/model/triplet_loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/visualize_embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UG_tensorflow-triplet-loss/visualize_embeddings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram-crawler" beforeDir="false" afterPath="$PROJECT_DIR$/instagram-crawler" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instagram-crawler/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/instagram-crawler/crawler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instagram-crawler/inscrawler/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/instagram-crawler/inscrawler/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow-triplet-loss/model/mnist_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow-triplet-loss/model/mnist_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow-triplet-loss/model/model_fn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow-triplet-loss/model/model_fn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow-triplet-loss/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow-triplet-loss/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/instagram-crawler" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UG_tensorflow-triplet-loss" />
   </component>
   <component name="ProjectId" id="1aFFaapV7s87Q5cN9yQEMRExgfB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,7 +43,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tensorflow-triplet-loss/model" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tensorflow-triplet-loss/model" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -53,5 +74,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586842126892" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow-triplet-loss/train.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorflow-triplet-loss/model/insta_dataset.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
