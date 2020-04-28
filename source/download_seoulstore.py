@@ -4,7 +4,7 @@ import os
 
 def DownloadSingleFile(fileURL, cnt):
     print('Downloading image...')
-    DIR = f'./DB/test'
+    DIR = f'./seoulstore'
     if not os.path.exists(DIR):
         os.mkdir(DIR)
     fileName = DIR + '/' + str("%03d"%cnt) + '.jpg'

@@ -1,0 +1,76 @@
+<style>
+.circular--square {
+                    border-radius: 50%;
+                    }
+
+ br {
+        line-height: 1000%;
+     }
+
+body { cursor: url(unnamed.png), auto;}
+
+</style>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title> PERSONAL SHOPPER </title>
+        <br/>
+        <center>
+            <font color="black" size="5"><a href="/"><h1> PERSONAL SHOPPER </h1></a></font>
+        </center>
+        <br/>
+    </head>
+
+    <body>
+    <table>
+        <tr>
+            <td width="100"></td>
+            <td width="250"> <a href="http://www.instagram.com/{{id}}"/><img  class="circular--square" src="/static/{{id}}/{{thumb_name}}?822" width=250> </td>
+            <td> {{id}} </td>
+        </tr>
+    </table>
+    <br/>
+
+    <center>
+        <table>
+            {% if length != 0 %}
+                {% for i in range(2, length-1, 3) %}
+                <span>
+                    <tr>
+                        <td height="300" width="300">
+                            <a href=/item_detail?id={{item_info[i]['key']}}>
+                                <img src="/static/seoulstore/dummie/{{item_info[i]['key']}}.jpg?351" width="270">
+                        </td>
+                        {% if item_info[i+1] %}
+                        <td height="300" width="300">
+                            <a href=/item_detail?id={{item_info[i+1]['key']}}>
+                                <img src="/static/seoulstore/dummie/{{item_info[i+1]['key']}}.jpg?743" width="270">
+                        </td>
+                        {% endif %}
+                        {% if item_info[i+2] %}
+                        <td height="300" width="300">
+                            <a href=/item_detail?id={{item_info[i+2]['key']}}>
+                                <img src="/static/seoulstore/dummie/{{item_info[i+2]['key']}}.jpg?326" width="270">
+                        </td>
+                        {% endif %}
+                    </tr>
+                </span>
+                {% endfor %}
+            {% endif %}
+            {% if length == 0 %}
+                <tr>
+                    매칭된 상품이 없습니다.
+                </tr>
+            {% endif %}
+        </table>
+
+        <br/>
+        <a href="/"> TO MAIN </a>
+        <br/>
+
+    </center>
+    </body>
+
+
+

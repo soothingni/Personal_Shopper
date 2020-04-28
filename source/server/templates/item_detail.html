@@ -1,0 +1,71 @@
+<style>
+.circular--square {
+                    border-radius: 50%;
+                    }
+
+ br {
+        line-height: 200%;
+     }
+
+body { cursor: url(unnamed.png), auto;}
+
+</style>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+        <br/>
+        <center>
+            <font color="black" size="5"><a href="/"> <h1> PERSONAL SHOPPER </h1> </a> </font>
+        </center>
+        <br/>
+    </head>
+
+    <center>
+    <body>
+    <table>
+        <tr>
+            <td width="250">
+                <a href={{item_info['product_url']}}>
+                    <img src="/static/seoulstore/dummie/{{item_info['key']}}.jpg?351" width="500">
+                </a>
+            </td>
+        </tr>
+    </table>
+    <br/>
+
+        <table>
+            {% if length != 0 %}
+                <span>
+                    <tr>
+                        {% for identity in item_info['likely'] %}
+                        <td height="400" width="500">
+                            <center>
+                            <a href=/view?id={{identity}}>
+                                <img class="circular--square" src="/static/{{identity}}/{{thumb_dict[identity]}}" width="200">
+                            </a>
+                                {{identity}}
+                            </center>
+                        </td>
+                        {% endfor %}
+
+                    </tr>
+                </span>
+            {% endif %}
+
+            {% if length == 0 %}
+                <tr>
+                    매칭된 스타일이 없습니다.
+                </tr>
+            {% endif %}
+        </table>
+        <br/>
+        <a href="/"> TO MAIN </a>
+        <br/>
+
+    </center>
+    </body>
+
+
+

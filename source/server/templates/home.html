@@ -1,0 +1,64 @@
+<html>
+
+<style>
+.circular--square {
+                    border-radius: 50%;
+                    }
+
+br.whitespace {
+        line-height: 2300%;
+     }
+
+html { cursor: url(unnamed.png), auto;}
+
+</style>
+
+<center>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title> PERSONAL SHOPPER </title>
+        <br class="whitespace"/>
+        <font color="black" size="5"><h1> {{title}} </h1></font>
+        <br class="whitespace"/>
+    </head>
+
+    <body>
+
+<!--        <form action="/fileUpload" method="POST" enctype = "multipart/form-data">-->
+<!--            <input type="file" name ="file1"/> <br>-->
+<!--            <select name="search_type">-->
+<!--                <option value=0> 유사한 상품 찾기 </option>-->
+<!--                <option value=1> 유사한 스타일 찾기 </option>-->
+<!--            </select>-->
+<!--            <input type="submit" value="찾기"/>-->
+<!--        </form>-->
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <table>
+            {% for i in range(0, length-1, 3) %}
+            <span>
+                <tr>
+                    <td height="300" width="400"> <center> <a href=/view?id={{entities[i]['name']}}> <img  class="circular--square" src="/static/{{entities[i]['thumb_dir']}}?883" width=350> </a> </center> </td>
+                    <td height="300" width="400"> <center> <a href=/view?id={{entities[i+1]['name']}}> <img  class="circular--square" src="/static/{{entities[i+1]['thumb_dir']}}?573" width=350> </a> </center> </td>
+                    <td height="300" width="400"> <center> <a href=/view?id={{entities[i+2]['name']}}> <img  class="circular--square" src="/static/{{entities[i+2]['thumb_dir']}}?346" width=350> </a> </center> </td>
+                </tr>
+                <tr>
+                    <td width="300"> <center> {{entities[i]['name']}} </center> </td>
+                    <td width="300"> <center> {{entities[i+1]['name']}} </center> </td>
+                    <td width="300"> <center> {{entities[i+2]['name']}} </center> </td>
+
+            </span>
+            {% endfor %}
+        </table>
+    </body>
+
+</center>
+
+</html>
+
+
