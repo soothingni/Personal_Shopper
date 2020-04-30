@@ -72,5 +72,9 @@ def delete():
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
+    app.run(host='0.0.0.0', port=4000, debug=True)
+=======
     app.run(host='0.0.0.0', port=8484, debug=True)
+>>>>>>> e793b7ac9c9b8d5166f0c41646e2c0f0ac83daae
     # app.run(host='0.0.0.0', port=8484, debug=True)
