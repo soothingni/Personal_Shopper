@@ -157,5 +157,7 @@ $RECYCLE.BIN/
 UG_tensorflow-triplet-loss/
 tensorflow-triplet-loss/
 *.xlsx
+source/model/img/
+source/model/img.zip
 
 # End of https://www.gitignore.io/api/python,windows,jupyternotebooks
