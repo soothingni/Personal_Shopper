@@ -154,10 +154,11 @@ $RECYCLE.BIN/
 *.whl
 *.weights
 *.key
+*.zip
 UG_tensorflow-triplet-loss/
 tensorflow-triplet-loss/
 *.xlsx
 source/model/img/
-source/model/img.zip
+source/DB/seoulstore10k/
 
 # End of https://www.gitignore.io/api/python,windows,jupyternotebooks
