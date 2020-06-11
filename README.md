@@ -4,6 +4,10 @@
 
 </video>
 
+
+
+<img src='static/시연.gif'>
+
 ## 01.
 
 ## 02.
